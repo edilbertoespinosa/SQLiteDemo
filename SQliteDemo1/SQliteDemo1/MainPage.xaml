@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SQliteDemo1.ViewModels"
+             x:Class="SQliteDemo1.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".2*"/>
+            <RowDefinition Height=".8*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout>
+            <Entry Placeholder="Name" Text="{Binding NewCustomer.Name}" />
+            <Entry Placeholder="Address" Text="{Binding NewCustomer.Address}" />
+            <Button Text="Add"
+                    Command="{Binding AddCommand}" />
+        </StackLayout>
+
+        <CollectionView Grid.Row="1" 
+                        ItemsSource="{Binding Customers}" 
+                        SelectionMode="Single" 
+                        SelectedItem="{Binding NewCustomer}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem 
+                                    Text="Delete" 
+                                    BackgroundColor="LightCoral" 
+                                    Command="{Binding 
+                                        Source={RelativeSource 
+                                            AncestorType={x:Type local:MainPageViewModel}}, 
+                                        Path=DeleteCommand}" 
+                                    CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                    <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Address}" 
+                               Grid.Column="1" />
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>

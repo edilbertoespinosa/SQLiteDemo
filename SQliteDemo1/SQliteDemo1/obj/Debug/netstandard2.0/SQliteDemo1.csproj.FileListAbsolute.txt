@@ -1,0 +1,15 @@
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\bin\Debug\netstandard2.0\SQliteDemo1.deps.json
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\bin\Debug\netstandard2.0\SQliteDemo1.dll
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\bin\Debug\netstandard2.0\ref\SQliteDemo1.dll
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\bin\Debug\netstandard2.0\SQliteDemo1.pdb
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.csprojAssemblyReference.cache
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.AssemblyInfoInputs.cache
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.AssemblyInfo.cs
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.csproj.CoreCompileInputs.cache
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.dll
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\ref\SQliteDemo1.dll
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.pdb
+C:\EES\SQliteDemo1\SQliteDemo1\SQliteDemo1\obj\Debug\netstandard2.0\SQliteDemo1.csproj.Fody.CopyLocal.cache
